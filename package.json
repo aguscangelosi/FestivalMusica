@@ -1,10 +1,12 @@
 {
   "name": "festival-con-sass",
   "version": "1.0.0",
-  "description": "Proyecto desarrollado para practicas con SASS y NPM",
+  "description": "SASS & NPM",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:dist/css",
+    "hola": "gulp saludar"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/aguscangelosi/FestivalMusica/issues"
   },
-  "homepage": "https://github.com/aguscangelosi/FestivalMusica#readme"
+  "homepage": "https://github.com/aguscangelosi/FestivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.6"
+  }
 }
