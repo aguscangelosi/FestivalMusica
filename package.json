@@ -1,0 +1,24 @@
+{
+  "name": "festival-con-sass",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollado para practicas con SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguscangelosi/FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Agustín Ezequiel Cangelosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguscangelosi/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/aguscangelosi/FestivalMusica#readme"
+}
